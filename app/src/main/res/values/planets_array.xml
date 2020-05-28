@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Choisir une semaine</item>
+        <item>S1 : 2020-04-13 ==> 2020-04-18</item>
+        <item>S2 : 2020-04-20 ==> 2020-04-25</item>
+        <item>S3 : 2020-04-27 ==> 2020-05-01</item>
+        <item>S4 : 2020-05-03 ==> 2020-05-08</item>
+    </string-array>
+</resources>

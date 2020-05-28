@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">projet</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_landscape">Landscape</string>
+    <string name="bottom_navigation_menu_logos">Logo</string>
+    <string name="bottom_navigation_menu_android">Android</string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Choisir une semaine</item>
+        <item>S1 : 2020-04-13 ==> 2020-04-18</item>
+        <item>S2 : 2020-04-20 ==> 2020-04-25</item>
+        <item>S3 : 2020-04-27 ==> 2020-05-01</item>
+        <item>S4 : 2020-05-03 ==> 2020-05-08</item>
+    </string-array>
+
+</resources>
