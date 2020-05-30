@@ -13,8 +13,9 @@ Les objectifs visés par l'application sont :
 ## Prerequisites
 pour que l'application ca marche bien sur une machine il faut passé par des changement au niveau de code et du programme instalé
  
-    ● importer le fichier Absence.sql dans phpmyadmin .
+    ● importer le fichier Base de donné/Absence.sql dans phpmyadmin .
     ● Installer XAMPP ou bien WAMPSERVER
+    ● charger le dossier script PHP dans le dossier du XAMPP ou du WAPSERVER
     ● changer l'URL "http://172.20.10.2/dashboard/*.php" par "http://adresse ip du serveur/l'emplacement des fichier php .
 
 
