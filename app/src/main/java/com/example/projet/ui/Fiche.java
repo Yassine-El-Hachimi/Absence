@@ -257,7 +257,7 @@ public class Fiche extends AppCompatActivity {
             try {
 
                 // Enter URL address where your php file resides
-                url = new URL("http://172.20.10.2/dashboard/fiche.php");
+                url = new URL("http://172.20.10.2/ScriptPHP/fiche.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
