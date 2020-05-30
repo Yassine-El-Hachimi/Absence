@@ -1,12 +1,10 @@
 package com.example.projet.ui;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Point;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.Display;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,11 +18,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
-import java.net.JarURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import com.example.projet.R;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -39,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etEmail;
     private EditText etPassword;
     private Button but;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 final String email = etEmail.getText().toString();
                 final String password = etPassword.getText().toString();
 
-                // Initialize  AsyncLogin() class with email and password
+                // Initialize  AsyncLogin() class with ID  and password
                 new AsyncLogin().execute(email,password);
 
             }
@@ -203,9 +200,7 @@ public class MainActivity extends AppCompatActivity {
 
             if(json !=null)
             {
-                /* Here launching another activity when login successful. If you persist login state
-                use sharedPreferences of Android. and logout button to clear sharedPreferences.
-                 */
+
                 setJson(jsonarray);
                 Intent intent = new Intent(MainActivity.this,Accepter.class);
                 startActivity(intent);
